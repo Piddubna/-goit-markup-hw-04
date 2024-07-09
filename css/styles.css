@@ -54,6 +54,8 @@ display: flex;
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .header-navigation {
@@ -138,6 +140,7 @@ color: #404BBF;
 
 .hero {
   background: #2e2f42;
+  background-image:url( ./img)
   padding: 188px 0 188px;
 }
 
