@@ -335,7 +335,7 @@ color: #404BBF;
 
 .icon-list {
   display: flex;
-  gap: 24px;
+  gap: 16px;
   flex-shrink: 0;
   align-self: flex-end; 
   list-style: none;
@@ -410,8 +410,11 @@ color: #404BBF;
 
 .footer {
   background: #2e2f42;
-  padding: 100px 0;
-  
+  padding: 100px 0;  
+}
+
+.footer-list {
+  gap: 56px;
 }
 
 .footer-logo {
@@ -441,17 +444,21 @@ color: #404BBF;
     max-width: 264px;
 }
 
-.footer-social-contact{
-  width: 208px;
-  height: 80px;
-  margin-left: 120px;
-}
-
 .footer-list-title {
+  display: flex;
    font: 500;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
-   color: #fff;
-  text-align: center;
+   color: #fff; 
+   margin-top: 0; 
+   margin-bottom: 16px;
+   padding-bottom: 3px;
+   padding-top: 0;
 }
+
+.footer-social-contact {
+  width: 208px;
+  height: 80px;
+}
+
