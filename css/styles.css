@@ -320,6 +320,7 @@ color: #404BBF;
 .social-item {
   width: 40px;
   height: 40px;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
  .social-link { 
@@ -542,3 +543,4 @@ img {
 .media-icon {
   fill:#f4f4fd;
 }
+
