@@ -488,19 +488,20 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
+    color: #F4F4FD;
 }
 
 
 .footer-list-title {
-  font-weight: 500;
-   font-size: 16px;
-   line-height: 1.5;
-   letter-spacing: 0.02em;
-   color: #fff; 
-   margin-top: 0; 
-   margin-bottom: 16px;
-   padding-bottom: 3px;
-   padding-top: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff; 
+    margin-top: 0; 
+    margin-bottom: 16px;
+    padding-bottom: 3px;
+    padding-top: 0;
 }
 
 .footer-social-contact {
