@@ -356,6 +356,42 @@ color: #404BBF;
   padding-bottom: 120px; 
 }
 
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.portfolio-menu-item {
+  width: calc((100% - 48px) / 3); 
+  background-color: #ffffff;
+}
+
+.portfolio-menu-item:hover .portfolio-item-text {
+  transform: translateY(0);
+}
+
+.portfolio-item-wrap {
+  position: relative;
+  overflow: hidden;
+}
+  
+.portfolio-item-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color:#4d5ae5;
+  color: #fff;
+  font: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 40px 32px;
+  height: 100%;
+  transform: translateY(100%);
+  transition:transform 300ms linear;
+}
+
 .portfolio-title {
   margin-bottom: 72px;
   font-size: 36px;
@@ -373,11 +409,7 @@ color: #404BBF;
   row-gap: 48px;
 }
 
-.portfolio-menu-item {
-  width: calc((100% - 48px) / 3); 
-  background-color: #ffffff;
-}
-  
+
 .portfolio-card {
   padding: 32px 16px;
   border-radius: 4px;
